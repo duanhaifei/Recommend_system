@@ -20,6 +20,8 @@ This repository is the Python implementation of Collaborative Filtering.
 
 Need to download the dataset first and put it in the `dataset/` folder.
 
+### 项目代码 
+(https://github.com/duanhaifei/Recommend_system)
 
 ### Dataset
 
@@ -56,3 +58,11 @@ Others:
 │   ├── alpha-figure.png
 │   └── rating-pie.png
 ```
+# Git管理
+echo "# Recommend_system" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:duanhaifei/Recommend_system.git
+git push -u origin main
